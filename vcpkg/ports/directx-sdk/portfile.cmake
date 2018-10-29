@@ -15,7 +15,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/)
 vcpkg_download_distfile(ARCHIVE
     URLS "https://github.com/fesily/DirectX-SDK/releases/download/1.0/DirectX-SDK.zip"
     FILENAME "DirectX-SDK.zip"
-    SHA512 f7dd73888b2e0d885c5caef6b27d70e48371e4941c506a81abf9e6353f10f76c22391be58ddfbbe1d0d3307995e9999974cbac92069d73074aebb1f49602b73c
+    SHA512  1066413cf35c9015010c92a9cd4e4cd6042b325a5123c58ca340f5338425319f6d915c16b5c99da61718fdecfcf2f709f86ab7c1537fe36bacf5769e55d57b1a
 )
 vcpkg_extract_source_archive(${ARCHIVE})
 file(GLOB INCLUDE_LIST LIST_DIRECTORIES false "${SOURCE_PATH}/include/*.*")
